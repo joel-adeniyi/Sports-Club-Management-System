@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '0c6b2c3bb9876ce439deca162a43e15f3c9889ff',
+    'reference' => '29ad4a09c3ff2b7215656c6d1e43dc44e65848a4',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -42,6 +42,42 @@
       array (
       ),
       'reference' => '0992cc19268b259a39e86f296da5f0677841f42c',
+    ),
+    'doctrine/cache' => 
+    array (
+      'pretty_version' => '2.1.1',
+      'version' => '2.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '331b4d5dbaeab3827976273e9356b3b453c300ce',
+    ),
+    'doctrine/dbal' => 
+    array (
+      'pretty_version' => '3.3.5',
+      'version' => '3.3.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '719663b15983278227669c8595151586a2ff3327',
+    ),
+    'doctrine/deprecations' => 
+    array (
+      'pretty_version' => 'v0.5.3',
+      'version' => '0.5.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9504165960a1f83cc1480e2be1dd0a0478561314',
+    ),
+    'doctrine/event-manager' => 
+    array (
+      'pretty_version' => '1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '41370af6a30faa9dc0368c4a6814d596e81aba7f',
     ),
     'doctrine/inflector' => 
     array (
@@ -422,12 +458,31 @@
       ),
       'reference' => '744ebba495319501b873a4e48787759c72e3fb8c',
     ),
+    'jasonmccreary/laravel-test-assertions' => 
+    array (
+      'pretty_version' => 'v2.1.1',
+      'version' => '2.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2547c0366f1ee9a2d58b031468b26edc63faef4e',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
       array (
         0 => '*',
       ),
+    ),
+    'laravel-shift/factory-generator' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => 'b0eac8a80572177f87bacf47dce4e2945bb548e2',
     ),
     'laravel/framework' => 
     array (
@@ -445,7 +500,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '0c6b2c3bb9876ce439deca162a43e15f3c9889ff',
+      'reference' => '29ad4a09c3ff2b7215656c6d1e43dc44e65848a4',
     ),
     'laravel/sail' => 
     array (
@@ -561,6 +616,15 @@
       array (
       ),
       'reference' => '776f831124e9c62e1a2c601ecc52e776d8bb7220',
+    ),
+    'naoray/eloquent-model-analyzer' => 
+    array (
+      'pretty_version' => 'v3.0.0',
+      'version' => '3.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd94c15d745d348597c3ba1f3c13b22cc48a7274f',
     ),
     'nesbot/carbon' => 
     array (
@@ -732,6 +796,15 @@
       array (
       ),
       'reference' => '1883687169c017d6ae37c58883ca3994cfc34189',
+    ),
+    'psr/cache' => 
+    array (
+      'pretty_version' => '3.0.0',
+      'version' => '3.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'aa5030cfa5405eccfdcb1083ce040c2cb8d253bf',
     ),
     'psr/container' => 
     array (

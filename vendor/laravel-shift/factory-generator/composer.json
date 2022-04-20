@@ -1,0 +1,34 @@
+{
+    "name": "laravel-shift/factory-generator",
+    "description": "Generate factories from existing models",
+    "type": "package",
+    "license": "MIT",
+    "keywords": ["laravel", "factory", "model", "testing"],
+    "require": {
+        "illuminate/support": "^8.0|^9.0",
+        "fakerphp/faker": "^1.9.1",
+        "naoray/eloquent-model-analyzer": "^2.0|^3.0",
+        "nikic/php-parser": "^4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shift\\FactoryGenerator\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "./tests",
+            "App\\": "./vendor/orchestra/testbench-core/laravel/app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shift\\FactoryGenerator\\FactoryGeneratorServiceProvider"
+            ]
+        }
+    }
+}
